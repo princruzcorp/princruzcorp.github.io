@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Lucida Sans', 'Sans-serif';
+}
+
+
+.body{
+    background-color:#F5B041 ;
+}
+
+.container{
+    width: 100%;
+    padding: 15px 0px;
+    background-color:#ECF0F1 ;
+   
+}
+.aside{
+    color: #000033;
+    padding: 10px 10px;
+}
+
+
+.footer{
+    background-color: #17202A;
+    color: antiquewhite;
+    text-align: center;
+   display: block;
+    
+}
