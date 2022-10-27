@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="CSS/stylo.css">
+    <style>
+
+           .principl{
+            display: inline;
+        }
+        .opcional{
+            display: none;
+        }
+
+        @media only screen and (max-width: 670px){
+            header>.div{
+                background-color: lightblue;
+            }
+            .principal{
+                display: none;
+            }
+            .opcional{
+                display: inline;
+            }
+        }
+        @media only screen and (max-width: 450px){
+            header>.div{
+                background-color: lightblue;
+            }
+            .principl{
+                display: none;
+            }
+            .opcional{
+                display: none;
+            }
+        }
+         
+      
+    </style>
+    
+</head>
+<body>
+
+    <header  class="posFixed">
+        <div class="menu" style="color: #000033 text-align: center; ">
+          <h1>CATALOGO</h1>
+        </div>  
+    </header>
+    <br>
+    
+    <div class="container">
+        <div class="row">
+            <nav>
+                <div class="col 12">
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="img/isla.jpg" >
+                        <source media="(min-width: 650px)" srcset="img/nevado.jpg" >
+                        <source media="(min-width: 500px)" srcset="img/nevado.pisco.jpg" >
+                        <source media="(min-width: 300px)" srcset="img/nevado3.jpg" >
+                        <img src="img/nevado5.png" alt="nevado5">
+                    </picture>
+                </div>
+            </nav>   
+        </div>
+        <div class="row">
+            <section class="section">
+                <div class="col-12" style="text-align: center;">
+                    <h2 style="color:blue;background-color: aliceblue;">producto</h2>
+                    <div class="flex-container align align">
+                        <img src="img/camioneta.png" alt="camioneta" class="producto">
+                        <img src="img/camioneta.png" alt="camioneta" class="producto">
+                        <img src="img/minibank.png" alt="minibank" class="producto">
+                        <img src="img/mini.bus.png" alt="mini.bus" class="producto">
+                        <img src="img/bus.png" alt="bus" class="producto">
+                        <img src="img/volquete.png" alt="volquete" class="producto">
+                        <img src="img/caterpilar.png" alt="caterpilar" class="producto">
+                        </div>
+                    </div>                   
+                </div>         
+            </section>
+        </div>
+        <div class="row">    
+            <article class="servicio">  
+                <div class="col-3 col-s-3">
+                    <h2 style="background-color: red ; text-align: center;" st>SERVICIO</h2>
+                    <ul>
+                        <li>TRANSPORTE PERSONAL</li>
+                        <li>TRANSPORTE DE CARGA</li>
+                        <li>CITY TURS</li>
+                        <li>CONSTRUCCION</li>
+                    </ul> 
+                </div>
+                
+            </article>
+            <article class="cuerpo">
+                <div class="col-6 col-s-9">
+                    <div>
+                        <h2 style="background-color: aquamarine">
+                            ¿Quiénes SOMOS? 
+                          </h2>
+                          <img src="img/LOGO.jpg" alt="Tortuga" class="cuerpo">
+                            <p style="background-color:royalblue;">Somos una empresa dedicada al servicio alquiler de vehículos de tipo combi de 15 pasajeros, camioneta 4x4, así mismo ofrecemos los servicios de  transporte de materiales,  transporte ejecutivos, transporte de personal, servicios de traslado de los trabajadores del sector de minería, compañías que realizan trabajos de construcción en carreteras de ciudades y comercio a nivel nacional. Contamos con choferes profesionales, capacitados y especializados para asegurar un eficiente servicio, de calidad y con seguridad. Además tenemos  una flota de unidades y equipos configurados de acuerdo a las necesidades de nuestros clientes. De esta manera cumplimos con nuestra misión y razón de ser, que es la satisfacción de nuestros clientes de los distintos sectores económicos, atendiendo sus necesidades y requerimientos.
+                            </p>
+                    </div>
+                    
+                </div>
+            </article>
+            <article class="video">
+                <div class="col-3 col-s-12">
+                    
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/ss2vprSx02M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>">
+                    <br><br>
+                    <video style="width: 240; height: 180;" autoplay loop muted width="320">
+                    <source src="video/video5.mp4" type="video/mp4"> 
+                    
+                </div>
+
+            </article>
+        </div>
+       
+    </div>
+    <footer class="footer">
+        <a  href="../PRINCRUZ/index.html">
+            <h4>inicio</h4>
+        </a>
+        <h3>telefono 000000</h3>
+        <h3>cornelio.jes25@gmail.com</h3>
+
+            <a href="javascript:alert('¡Buenas noches!');">Saludar</a>
+            <button onclick="document.location='index.html'">Ir al inicio</button>
+        
+            <a href="mailto:correo@mail.com">Enviar correo</a>
+            <a href="javascript: window.print(); ">Imprimir</a>
+            <a href="https://wa.link/zk2ncd">wasap</a>
+    </footer>  
+</body>
+</html>
